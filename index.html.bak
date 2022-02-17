@@ -3,7 +3,7 @@
 <head>
 
 	<title>Home</title>
-	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="favicon.">
 
 <style>
 body{
@@ -60,10 +60,7 @@ margin-top:20px;
   cursor: pointer;
 }
 body {
-border-top-style: solid;
-  border-right-style: solid;
-  border-bottom-style: solid;
-  border-left-style: solid;
+
 }
 
 
@@ -82,7 +79,7 @@ border-top-style: solid;
         <div id="navright">
 			<a href = "projects.html"><button class="button">Projects</button></a>
 			<a href = "homework.html"><button class="button">Homework</button></a>
-			<a href = "dump.html"><button class="button">Dump</button></a>
+			<a href = "ap.html"><button class="button">Dump</button></a>
         </div>
     </ul>
     </div>
