@@ -65,7 +65,12 @@ button.hover{
 }
 	
 body {
-
+	color:black;
+}
+	
+.dark-mode {
+  background-color: black;
+  color: white;
 }
 h3 {
 font-color: rgb(198,219,221);
@@ -95,7 +100,14 @@ font-color: rgb(198,219,221);
 <p>This website is used as a central storage system for some information to be readily shared and/or accessed.</p>
 <p>Essentially, I've grown a bit tired of the fact that my bookmark bar is small (and quite a bad way to save links) and the fact that I don't feel like creating new notepad documents for any important notes I need.</p>
 
+<button onclick="myFunction()">Light/Dark Mode</button>
 
+	
+	
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
 
 </body>
 </html>
